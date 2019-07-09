@@ -1,0 +1,76 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "description": "https://doi-org.libproxy.newschool.edu/10.1080/0163853X.2017.1286225 Fig4",
+  "data": {
+    "values": [
+      {
+        "round": 1,
+        "num_words": 14,
+        "cat": "hl"
+      },
+      {
+        "round": 2,
+        "num_words": 7,
+        "cat": "hl"
+      },
+      {
+        "round": 3,
+        "num_words": 6,
+        "cat": "hl"
+      },
+      {
+        "round": 4,
+        "num_words": 5,
+        "cat": "hl"
+      },
+      {
+        "round": 5,
+        "num_words": 14,
+        "cat": "hl"
+      },
+      {
+        "round": 1,
+        "num_words": 14,
+        "cat": "lh"
+      },
+      {
+        "round": 2,
+        "num_words": 13,
+        "cat": "lh"
+      },
+      {
+        "round": 3,
+        "num_words": 7,
+        "cat": "lh"
+      },
+      {
+        "round": 4,
+        "num_words": 6,
+        "cat": "lh"
+      },
+      {
+        "round": 5,
+        "num_words": 14,
+        "cat": "lh"
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "round",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "num_words",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "cat",
+      "type": "nominal"
+    }
+  }
+}
